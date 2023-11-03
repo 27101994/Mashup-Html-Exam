@@ -1,0 +1,52 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InputForm</title>
+</head>
+<body>
+    <form action="" method="POST">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" maxlength="25" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="test@example.com" required autofocus><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="6" required><br><br>
+
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+            <option value="student">Student</option>
+            <option value="employee">Employee</option>
+            <option value="freelancer" selected>Freelancer</option>
+        </select><br><br>
+
+        <label for="event-date">Event Date:</label>
+        <input type="date" id="event-date" name="event-date" required><br><br>
+
+        <label for="tickets">Tickets:</label><br>
+        <input type="radio" id="1-ticket" name="tickets" value="1" required>
+        <label for="1-ticket">1 Ticket</label><br>
+
+        <input type="radio" id="2-tickets" name="tickets" value="2" checked>
+        <label for="2-tickets">2 Tickets</label><br>
+
+        <input type="radio" id="3-tickets" name="tickets" value="3" required>
+        <label for="3-tickets">3 Tickets</label><br><br>
+
+        <label for="online-payment">Online Payment:</label>
+        <input type="checkbox" id="online-payment" name="online-payment"><br><br>
+
+        <label for="notes">Notes:</label>
+        <textarea id="notes" name="notes" placeholder="Enter any additional notes"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
